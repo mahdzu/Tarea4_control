@@ -1,0 +1,89 @@
+\documentclass{report}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage[left=35mm,right=25mm,top=25mm,bottom=30mm]{geometry}
+
+\title{Tarea 4. Parámetros de PID método LGR}
+
+\author{Miguel Hernández Umaña}
+
+\begin{document}
+\section{Procesos a utilizar}
+De acuerdo a las especificaciones dadas para obtener los parámetros del 
+modelo de planta a utilizar en esta tarea, se tiene que para el carnet \textit{A42600}, 
+se utiliza como base el carnet \textit{A42655} equivalente a \textit{Aapqmn}.
+
+Planta para proceso subamortiguado con un cero:
+
+\begin{equation}
+    P_{psubc}(s) = \frac{\beta(s+2)}{(s+1+\alpha j)(s+1-\alpha j)},\enskip \alpha = 0.1 \cdot max(p,q,m,n), \beta = (0.1 \cdot min(p,q,m,n)+1)
+\label{Eq:1}
+\end{equation}
+
+Dado que el $max(p,q,m,n) = 6$ y el $min(p,q,m,n) = 2$, el modelo subamortiguado, ecuación \ref{Eq:1}, queda de la siguiente manera:
+
+\begin{equation}
+    P_{psubc}(s) = \frac{1.2(s+2)}{(s+1+0.6 j)(s+1-0.6 j)} = \frac{1.2(s+2)}{(s^2+2s+1.36)} 
+\label{Eq:2}
+\end{equation}
+
+Planta Proceso Inestable:
+
+\begin{equation}
+    P_{pi}(s) = \frac{\beta}{(s^2-\alpha)},\enskip \alpha = 0.1 \cdot max(p,q,m,n), \beta = (0.1 \cdot min(p,q,m,n)+1) 
+\label{Eq:3}
+\end{equation}
+
+Sustituyendo los valores de $\alpha$ y $\beta$ se tiene:
+
+\begin{equation}
+    P_{pi}(s) = \frac{1.2}{(s^2-0.6)}
+\label{Eq:4}
+\end{equation}
+
+\section{Ejercicio 1}
+
+Determine los parámetros del controlador de la familia PID que sea más simple (P,
+PD, PI, PID), tal que la respuesta del sistema de control a un cambio tipo escalón en el valor
+deseado, tenga: tiempo de asentamiento al 2\% $t_{a2} \leqslant 4$ segundos, un error permanente $e_{pr0} \leqslant 20\%$
+y el menor sobrepaso máximo posible
+
+El modelo de la planta a utilizar es:
+
+\begin{equation}
+    P_{psubc}(s) = \frac{1.2(s+2)}{(s+1+0.6 j)(s+1-0.6 j)} = \frac{1.2(s+2)}{(s^2+2s+1.36)} 
+\label{Eq:5}
+\end{equation}
+
+\subsubsection{Controlador Proporcional $C(s) = K_p$}
+El sistema se puede comparar con el modelo de un sistema subamortiguado 
+
+\begin{equation}
+    \frac{y(s)}{r(s)}=\frac{K_{yr}\omega_n^2}{s^2+2\zeta \omega_ns+\omega_n^2}
+\label{Eq:6}
+\end{equation}
+
+Comparando denominadores se tiene que $\zeta \omega_n = 1$. Además, para el modelo subamortiguado el tiempo de asentamiento al 2\% $t_{a2} \approx \frac{4}{\zeta \omega_n}$.
+
+Por lo tanto, para el ejercicio, sustituyendo $\zeta \omega_n = 1$, se tiene que $1 \leqslant \zeta \omega_n$.
+
+Utilizando el requerimiento de que el error permanente $e_{pr0} \leqslant 20\%$. El error permanente se obtiene de la expresión:
+
+\begin{equation}
+    e_{pr0} = \frac{1}{1+K_0},\enskip donde \enskip K_0 = \lim_{s\to0} C(s)P(s) 
+\end{equation}
+
+Por lo tanto $\frac{1}{1+K_o} \leqslant 0.2$, de donde se obtiene $4 \leqslant K_o$. Sustituyendo este valor $K_o$ en el límite:
+
+\begin{equation}
+    4 \leqslant K_0 = \lim_{s\to0} K_p\frac{1.2(s+2)}{(s^2+2s+1.36)} 
+\end{equation}
+
+de donde se obtiene que $2.27 \leqslant K_p$. 
+
+
+
+\end{document}
