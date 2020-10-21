@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.9.21)  18 OCT 2020 02:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.9.21)  19 OCT 2020 17:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -147,6 +147,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen153
 \Gm@layoutvoffset=\dimen154
 \Gm@dimlist=\toks25
+) (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count194
@@ -154,23 +156,33 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 ) (/mnt/MIGUE/UCR/IE-0431/II 2020/Tareas/Tarea 5/build/main.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
+
+
+LaTeX Warning: Label `Eq:12' multiply defined.
+
+
+LaTeX Warning: Label `Eq:12' multiply defined.
+
+
+LaTeX Warning: Label `Eq:12' multiply defined.
+
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count195
@@ -198,15 +210,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(99.58464pt, 443.57848pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 638.47984pt, 85.35826pt)
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=443.57848pt
-* \textheight=638.47984pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=27.31465pt
-* \topmargin=-38.1381pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -224,32 +236,224 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Info: Redefining \celsius on input line 14.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 14.
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 14.
+Package gensymb Info: Using \Omega for \ohm on input line 14.
+
+Package gensymb Warning: Not defining \micro.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/mnt/MIGUE/UCR/IE-0431/II 2020/Tareas/Tarea 5/build/main.aux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+[2]
+<P1_1.png, id=22, 1443.14156pt x 739.26187pt>
+File: P1_1.png Graphic file (type png)
+<use P1_1.png>
+Package pdftex.def Info: P1_1.png  used on input line 127.
+(pdftex.def)             Requested size: 500.484pt x 256.37668pt.
+<P1_PD.png, id=24, 1440.13031pt x 741.52031pt>
+File: P1_PD.png Graphic file (type png)
+<use P1_PD.png>
+Package pdftex.def Info: P1_PD.png  used on input line 154.
+(pdftex.def)             Requested size: 500.484pt x 257.6917pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./P1_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+<P1_PI.png, id=29, 1440.13031pt x 737.00343pt>
+File: P1_PI.png Graphic file (type png)
+<use P1_PI.png>
+Package pdftex.def Info: P1_PI.png  used on input line 174.
+(pdftex.def)             Requested size: 500.484pt x 256.12201pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
+
+ []
+
+[4 <./P1_PD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+<P2_P.png, id=34, 1441.63594pt x 744.53156pt>
+File: P2_P.png Graphic file (type png)
+<use P2_P.png>
+Package pdftex.def Info: P2_P.png  used on input line 232.
+(pdftex.def)             Requested size: 500.484pt x 258.46552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+[5 <./P1_PI.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+<P2_PD.png, id=40, 1441.63594pt x 732.48656pt>
+File: P2_PD.png Graphic file (type png)
+<use P2_PD.png>
+Package pdftex.def Info: P2_PD.png  used on input line 269.
+(pdftex.def)             Requested size: 500.484pt x 254.28406pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[6 <./P2_P.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+<P2_PI.png, id=45, 1435.61343pt x 413.29407pt>
+File: P2_PI.png Graphic file (type png)
+<use P2_PI.png>
+Package pdftex.def Info: P2_PI.png  used on input line 298.
+(pdftex.def)             Requested size: 500.484pt x 144.0812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+[7 <./P2_PD.png> <./P2_PI.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+<P2_PID.png, id=52, 1442.38875pt x 738.50906pt>
+File: P2_PID.png Graphic file (type png)
+<use P2_PID.png>
+Package pdftex.def Info: P2_PID.png  used on input line 347.
+(pdftex.def)             Requested size: 500.484pt x 256.25084pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+[8] [9 <./P2_PID.png>] (/mnt/MIGUE/UCR/IE-0431/II 2020/Tareas/Tarea 5/build/main.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-) ) 
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3910 strings out of 480478
- 51926 string characters out of 5905959
- 316259 words of memory out of 5000000
- 19914 multiletter control sequences out of 15000+600000
- 535296 words of font info for 36 fonts, out of 8000000 for 9000
+ 4023 strings out of 480478
+ 53245 string characters out of 5905959
+ 317677 words of memory out of 5000000
+ 20015 multiletter control sequences out of 15000+600000
+ 535594 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,35p,293b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/mnt/MIGUE/UCR/IE-0431/II 2020/Tareas/Tarea 5/build/main.pdf" (1 page, 114054 bytes).
+ 30i,6n,35p,361b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "/mnt/MIGUE/UCR/IE-0431/II 2020/Tareas/Tarea 5/build/main.pdf" (9 pages, 694643 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
